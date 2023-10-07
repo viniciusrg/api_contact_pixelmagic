@@ -6,12 +6,12 @@
         body {
             font-family: 'Arial', sans-serif;
             background-color: #f4f4f4;
-            color: #333;
+            /* color: #333; */
             margin: 20px;
         }
 
         h1 {
-            color: #f1f1f1;
+            /* color: #f1f1f1; */
         }
 
         p {
