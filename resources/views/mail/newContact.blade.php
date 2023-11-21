@@ -7,7 +7,6 @@
             font-family: 'Arial', sans-serif;
             background-color: #f4f4f4;
             /* color: #333; */
-            /* teste */
             margin: 20px;
         }
 
