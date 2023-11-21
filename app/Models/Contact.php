@@ -15,6 +15,8 @@ class Contact extends Model
         'id',
         'name',
         'email',
+        'phone',
+        'contact_form',
         'message'
     ];
     

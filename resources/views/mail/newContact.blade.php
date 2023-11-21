@@ -21,9 +21,11 @@
 </head>
 
 <body>
-    <h1>New Contact Landing Page - IRONPLAN</h1>
+    <h1>New Contact PixelMagic</h1>
     <p><strong>Name:</strong> {{$data['name']}}</p>
     <p><strong>Email:</strong> {{$data['email']}}</p>
+    <p><strong>Phone:</strong> {{$data['phone']}}</p>
+    <p><strong>Contact Form:</strong> {{$data['contact_form']}}</p>
     <p><strong>Message:</strong> {{$data['message']}}</p>
 </body>
 

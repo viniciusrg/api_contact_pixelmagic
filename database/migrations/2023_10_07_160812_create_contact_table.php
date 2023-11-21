@@ -15,7 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('email');
-            $table->string('message', 2000);
+            $table->string('phone')->nullable();
+            $table->boolean('contact_form');
+            $table->string('message', 2000)->nullable();
             $table->timestamps();
         });
     }

@@ -13,7 +13,7 @@ class SetContact
         $req->validate([
             'name' => 'required',
             'email' => 'required',
-            'message' => 'required',
+            'contact_form' => 'required',
         ]);
 
         $data = $req->except(['_token']);
@@ -26,7 +26,7 @@ class SetContact
         try {
             Mail::send('mail.newContact', ['data' => $data], function ($mail) use ($email) {
                 $mail->from(env('MAIL_FROM_ADDRESS'), env('MAIL_FROM_NAME'));
-                $mail->subject('Landing Page - IRONPLAN');
+                $mail->subject('Landing Page - PixelMagic');
                 $mail->to($email);
             });
         } catch (\Exception $e) {
