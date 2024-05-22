@@ -14,6 +14,7 @@ class SetContact
             'name' => 'required',
             'email' => 'required',
             'contact_form' => 'required',
+            'budget' => 'required'
         ]);
 
         $data = $req->except(['_token']);

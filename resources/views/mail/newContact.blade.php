@@ -26,6 +26,7 @@
     <p><strong>Email:</strong> {{$data['email']}}</p>
     <p><strong>Phone:</strong> {{$data['phone']}}</p>
     <p><strong>Contact Form:</strong> {{$data['contact_form']}}</p>
+    <p><strong>Budget:</strong> {{$data['budget']}}</p>
     <p><strong>Message:</strong> {{$data['message']}}</p>
 </body>
 

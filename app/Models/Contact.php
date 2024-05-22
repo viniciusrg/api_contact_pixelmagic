@@ -17,6 +17,7 @@ class Contact extends Model
         'email',
         'phone',
         'contact_form',
+        'budget',
         'message'
     ];
     
